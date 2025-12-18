@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protocolo de Bioingeniería Inmunológica</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+        h1, h2, h3, h4, .font-heading {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .hero-bg {
+            background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.7)), url('https://images.unsplash.com/photo-1576086213369-97a306d36557?q=80&w=2080&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+        .science-bg {
+            background-image: radial-gradient(#cbd5e1 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+        .arrow-down {
+            animation: bounce 2s infinite;
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+            40% {transform: translateY(-10px);}
+            60% {transform: translateY(-5px);}
+        }
+    </style>
+</head>
+<body class="text-slate-800 antialiased">
+
+    <!-- BLOQUE 1: EL GANCHO (HERO SECTION) -->
+    <header class="hero-bg min-h-screen flex items-center justify-center text-white px-4 relative overflow-hidden">
+        <div class="absolute inset-0 bg-blue-900 opacity-20 z-0"></div> <!-- Filtro azul -->
+        
+        <div class="max-w-4xl mx-auto text-center relative z-10 py-12">
+            <span class="inline-block py-1 px-3 rounded-full bg-blue-500/30 border border-blue-400 text-blue-100 text-sm font-semibold tracking-wider mb-6">
+                PROTOCOLO DE BIOINGENIERÍA INMUNOLÓGICA
+            </span>
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6 tracking-tight">
+                Cómo apagar la Psoriasis:<br>
+                No es tu Piel. <span class="text-blue-400">Es tu Sistema Operativo Biológico.</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-200 mb-8 max-w-2xl mx-auto leading-relaxed">
+                Descubre el protocolo que apaga la señal de la Psoriasis desde el núcleo celular. <br>
+                <span class="font-bold text-white">Sin Corticoides. Sin dependencia. Sin "tratamientos mágicos".</span>
+            </p>
+            
+            <button onclick="document.getElementById('oferta').scrollIntoView({behavior: 'smooth'})" class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-lg shadow-lg transform transition hover:scale-105 duration-200 flex items-center justify-center mx-auto gap-3">
+                <span>ACCEDER AL PROTOCOLO CELULAR AHORA</span>
+                <i class="fas fa-dna"></i>
+            </button>
+            
+            <!-- Nueva Garantía Llamativa en el Hero -->
+            <div class="mt-8 flex flex-col items-center animate-bounce">
+                <div class="bg-yellow-500 text-slate-900 px-6 py-2 rounded-full font-extrabold text-sm uppercase tracking-widest shadow-[0_0_20px_rgba(234,179,8,0.6)] flex items-center gap-2 border-2 border-yellow-300">
+                    <i class="fas fa-shield-alt text-lg"></i>
+                    Garantía de Hierro de 7 Días
+                </div>
+                <p class="mt-2 text-xs text-yellow-200 font-semibold">Prueba sin riesgo. Si no te convence, te devolvemos el 100%.</p>
+            </div>
+            
+            <p class="mt-6 text-sm text-slate-400">Basado en bioquímica, no en cosmética.</p>
+        </div>
+    </header>
+
+    <!-- BLOQUE 2: AGITACIÓN DEL PROBLEMA -->
+    <section class="py-20 bg-white px-4">
+        <div class="max-w-3xl mx-auto text-center md:text-left">
+            <h3 class="text-3xl font-bold text-slate-900 mb-8 border-l-4 border-red-500 pl-4">
+                ¿Por qué sigues brotado después de tantas cremas y visitas al dermatólogo?
+            </h3>
+            <div class="space-y-6 text-lg text-slate-700 leading-relaxed">
+                <p>
+                    La respuesta es dolorosa pero simple: Porque han estado tratando el <span class="font-bold text-red-600">"humo"</span> (la piel) e ignorando el <span class="font-bold text-red-600">"incendio"</span> (el núcleo celular).
+                </p>
+                <p>
+                    Te han dicho que es incurable. <strong>Te mintieron.</strong> O simplemente, no te explicaron el mecanismo real:
+                </p>
+                <ul class="space-y-4 bg-slate-50 p-6 rounded-xl border border-slate-200">
+                    <li class="flex items-start gap-3">
+                        <i class="fas fa-times-circle text-red-500 mt-1"></i>
+                        <span><strong>Los Corticoides</strong> solo "ponen pausa" a la inflamación, provocando un efecto rebote brutal.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i class="fas fa-times-circle text-red-500 mt-1"></i>
+                        <span><strong>El Metotrexato</strong> es una quimioterapia leve que intoxica tu hígado lentamente.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i class="fas fa-times-circle text-red-500 mt-1"></i>
+                        <span><strong>Los Biológicos</strong> fallan cuando tu cuerpo inevitablemente crea resistencia.</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOQUE 3: LA REVELACIÓN CIENTÍFICA -->
+    <section class="py-20 bg-slate-50 science-bg border-y border-slate-200 px-4">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-12">
+                <span class="text-blue-600 font-bold tracking-widest uppercase text-sm">El Mecanismo Único</span>
+                <h3 class="text-3xl md:text-4xl font-bold text-slate-900 mt-2">
+                    La Verdad Celular: <br>La Guerra entre Th17 y T-Regs
+                </h3>
+            </div>
+
+            <!-- Esquema Visual Interactivo -->
+            <div class="relative flex flex-col items-center max-w-lg mx-auto space-y-2">
+                
+                <!-- Paso 1 -->
+                <div class="w-full bg-white p-4 rounded-xl shadow-md border-l-4 border-yellow-400 flex items-center gap-4">
+                    <div class="bg-yellow-100 p-3 rounded-full text-yellow-600">
+                        <i class="fas fa-brain text-2xl"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-slate-900">ESTRÉS / CORTISOL ALTO</h4>
+                        <p class="text-sm text-slate-600">Videojuegos, ansiedad, trabajo.</p>
+                    </div>
+                </div>
+
+                <i class="fas fa-arrow-down text-slate-400 text-xl py-2"></i>
+
+                <!-- Paso 2 -->
+                <div class="w-full bg-white p-4 rounded-xl shadow-md border-l-4 border-red-400 flex items-center gap-4">
+                    <div class="bg-red-100 p-3 rounded-full text-red-600">
+                        <i class="fas fa-shield-alt text-2xl"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-slate-900">MUERTE DE CÉLULAS T-REGS</h4>
+                        <p class="text-sm text-slate-600">Tus "policías" internos desaparecen.</p>
+                    </div>
+                </div>
+
+                <i class="fas fa-arrow-down text-slate-400 text-xl py-2"></i>
+
+                <!-- Paso 3 -->
+                <div class="w-full bg-white p-4 rounded-xl shadow-md border-l-4 border-orange-400 flex items-center gap-4">
+                    <div class="bg-orange-100 p-3 rounded-full text-orange-600">
+                        <i class="fas fa-bacteria text-2xl"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-slate-900">INTESTINO PERMEABLE</h4>
+                        <p class="text-sm text-slate-600">Entran toxinas a la sangre (Disbiosis).</p>
+                    </div>
+                </div>
+
+                <div class="py-4">
+                    <i class="fas fa-long-arrow-alt-down text-red-600 text-5xl arrow-down"></i>
+                </div>
+
+                <!-- Paso Final -->
+                <div class="w-full bg-red-600 text-white p-6 rounded-xl shadow-xl flex items-center gap-4 transform scale-105">
+                    <div class="bg-white p-3 rounded-full text-red-600">
+                        <i class="fas fa-fire-alt text-2xl"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-lg">ACTIVACIÓN DE VÍA Th17</h4>
+                        <p class="text-sm text-red-100">La orden biológica de atacar tu piel.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <p class="mt-12 text-center text-slate-700 max-w-2xl mx-auto bg-blue-50 p-6 rounded-lg border border-blue-200">
+                <i class="fas fa-info-circle text-blue-500 mr-2"></i>
+                Tu psoriasis es el resultado de este colapso en tus defensas. <strong>Mientras no selles el intestino y modules el cortisol, ninguna crema funcionará a largo plazo.</strong>
+            </p>
+        </div>
+    </section>
+
+    <!-- BLOQUE 4: LA SOLUCIÓN -->
+    <section class="py-20 px-4 bg-white overflow-hidden">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+            
+            <div class="md:w-1/2 text-center md:text-left">
+                <h2 class="text-3xl md:text-5xl font-extrabold text-slate-900 mb-4">
+                    Presentamos el <span class="text-blue-600">"Manual Maestro de Biohackeo Integral"</span>
+                </h2>
+                <h3 class="text-xl text-slate-600 mb-6 font-medium">
+                    No es un libro de dietas. Es un plano de ingeniería para reprogramar tu biología.
+                </h3>
+                <p class="text-slate-700 mb-8 leading-relaxed">
+                    Un documento técnico simplificado de 23 páginas diseñado para ir directamente al código fuente de tu sistema inmune y "resetear" la respuesta inflamatoria.
+                </p>
+                <div class="hidden md:block">
+                    <button onclick="document.getElementById('oferta').scrollIntoView({behavior: 'smooth'})" class="text-blue-600 font-bold border-b-2 border-blue-600 hover:text-blue-800 transition">
+                        Ver lo que incluye el manual <i class="fas fa-arrow-right ml-2"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="md:w-1/2 flex justify-center relative">
+                <!-- Mockup CSS del Libro -->
+                <div class="relative w-64 h-80 bg-blue-900 rounded-r-lg shadow-2xl transform rotate-3 hover:rotate-0 transition duration-500 cursor-pointer border-l-4 border-slate-300">
+                    <div class="absolute inset-0 flex flex-col justify-between p-6 text-white bg-gradient-to-br from-blue-800 to-slate-900 rounded-r-lg">
+                        <div class="text-xs tracking-widest border-b border-blue-500 pb-2">CONFIDENCIAL / PROTOCOLO</div>
+                        <div class="text-center">
+                            <i class="fas fa-dna text-6xl text-blue-400 opacity-50 mb-4"></i>
+                            <h2 class="text-2xl font-bold uppercase font-heading">Biohackeo<br>Integral</h2>
+                            <p class="text-xs text-blue-200 mt-2">Protocolo de ingeniería inversa para la Psoriasis</p>
+                        </div>
+                        <div class="text-xs text-right opacity-70">Ver. 2.0</div>
+                    </div>
+                    <!-- Sombra del libro -->
+                    <div class="absolute top-2 left-2 w-full h-full bg-slate-900 rounded-r-lg -z-10 opacity-20"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- BLOQUE 5: LO QUE CONTIENE -->
+    <section class="py-20 bg-slate-900 text-white px-4">
+        <div class="max-w-4xl mx-auto">
+            <h3 class="text-3xl font-bold text-center mb-12">
+                Lo que descubrirás dentro de las 23 páginas de investigación pura:
+            </h3>
+
+            <div class="grid gap-6">
+                <!-- Item 1 -->
+                <div class="bg-slate-800 p-6 rounded-lg border border-slate-700 hover:border-blue-500 transition duration-300">
+                    <h4 class="text-xl font-bold text-blue-400 mb-2">
+                        <i class="fas fa-check-square mr-2"></i> MÓDULO CERO: El Asesino Silencioso
+                    </h4>
+                    <p class="text-slate-300">Cómo el estrés (incluso el de los videojuegos) destruye tus defensas y el protocolo exacto para detenerlo en seco.</p>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="bg-slate-800 p-6 rounded-lg border border-slate-700 hover:border-blue-500 transition duration-300">
+                    <h4 class="text-xl font-bold text-blue-400 mb-2">
+                        <i class="fas fa-check-square mr-2"></i> INGENIERÍA PREBIÓTICA
+                    </h4>
+                    <p class="text-slate-300">Olvida los probióticos comerciales. Aprende la técnica de <span class="text-white font-bold">"Sustrato de Fermentación Selectiva"</span> para crear tu propia medicina intestinal.</p>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="bg-slate-800 p-6 rounded-lg border border-slate-700 hover:border-blue-500 transition duration-300">
+                    <h4 class="text-xl font-bold text-blue-400 mb-2">
+                        <i class="fas fa-check-square mr-2"></i> MODULACIÓN EPIGENÉTICA
+                    </h4>
+                    <p class="text-slate-300">El uso estratégico de compuestos postbióticos para optimizar la expresión génica y forzar la regeneración celular desde el ADN.</p>
+                </div>
+
+                 <!-- Item 4 -->
+                 <div class="bg-slate-800 p-6 rounded-lg border border-slate-700 hover:border-blue-500 transition duration-300">
+                    <h4 class="text-xl font-bold text-blue-400 mb-2">
+                        <i class="fas fa-check-square mr-2"></i> NUTRICIÓN DE PRECISIÓN
+                    </h4>
+                    <p class="text-slate-300">Por qué comer sano no basta. La lista exacta de alimentos (como el hígado y grasas nobles) para obtener el retinol que sana la piel.</p>
+                </div>
+
+                 <!-- Item 5 -->
+                 <div class="bg-slate-800 p-6 rounded-lg border border-slate-700 hover:border-blue-500 transition duration-300">
+                    <h4 class="text-xl font-bold text-blue-400 mb-2">
+                        <i class="fas fa-check-square mr-2"></i> EL PROTOCOLO DE APAGADO
+                    </h4>
+                    <p class="text-slate-300">La estrategia de salida para dejar los medicamentos y alcanzar la "Homeostasis Inmunológica" (remisión permanente).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOQUE 6: AUTOR (ACTUALIZADO) -->
+    <section class="py-20 bg-white px-4">
+        <div class="max-w-5xl mx-auto">
+            <div class="bg-blue-50 rounded-2xl p-8 md:p-12 border border-blue-100 shadow-lg flex flex-col md:flex-row gap-8 items-center">
+                
+                <div class="w-full md:w-1/3 flex flex-col items-center">
+                    <!-- Marco para foto -->
+                    <div class="w-48 h-48 bg-white p-2 rounded-full shadow-md mb-4">
+                        <div class="w-full h-full bg-slate-200 rounded-full flex items-center justify-center overflow-hidden">
+                            <i class="fas fa-user text-6xl text-slate-400"></i>
+                            <!-- <img src="tu-foto.jpg" class="object-cover w-full h-full"> -->
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <p class="font-bold text-slate-900 text-lg">El Autor</p>
+                        <p class="text-sm text-slate-500">Biohacker & Ex-paciente</p>
+                    </div>
+                </div>
+
+                <div class="w-full md:w-2/3">
+                    <h3 class="text-2xl md:text-3xl font-bold text-slate-900 mb-4 font-heading">
+                        ¿Quién soy y por qué vendo esto?
+                    </h3>
+                    
+                    <div class="space-y-4 text-slate-700 leading-relaxed">
+                        <p class="font-medium text-lg border-l-4 border-orange-500 pl-4">
+                            No soy un doctor de bata blanca que nunca ha sentido el ardor. Soy una persona que vivió durante <span class="font-bold text-blue-600">5 años prisionero de la psoriasis</span>.
+                        </p>
+                        <p>
+                            Sé lo que es esconderse en verano. Sé lo que es despertar con sábanas manchadas. Sé lo que es la desesperación de ver cómo una crema de $100 deja de funcionar a la semana.
+                        </p>
+                        <p>
+                            Durante esos 5 años, transformé mi dolor en mi obsesión. <strong>5 años de investigación ininterrumpida.</strong> Leí lo que los dermatólogos no tienen tiempo de leer. Me sumergí en la ingeniería celular y la biología molecular.
+                        </p>
+                        <p>
+                            Este manual no es una recopilación de remedios caseros. <span class="bg-yellow-100 px-1 font-bold">Es el resultado de haber hackeado el código de la enfermedad.</span> Descubrí el "truco" biológico, el fallo en el sistema operativo de nuestras células, y diseñé la forma de corregirlo. Comparto esto porque logré salir del infierno, y sé exactamente dónde está la salida.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOQUE 7: TESTIMONIOS -->
+    <section class="py-20 bg-slate-50 px-4 border-t border-slate-200">
+        <div class="max-w-5xl mx-auto">
+            <h3 class="text-3xl font-bold text-center text-slate-900 mb-12">
+                Lo que dicen quienes ya han hackeado su sistema
+            </h3>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Testimonio 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border border-slate-100">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 flex mr-2">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <span class="font-bold text-slate-900">Carlos M.</span>
+                    </div>
+                    <p class="text-slate-700 italic">"Después de 15 años con corticoides, mi piel era un desastre. Este protocolo no es fácil, pero es lo único que ha tenido sentido lógico. En 4 semanas, mis codos están limpios por primera vez. Es increíble entender por fin qué pasaba dentro de mí."</p>
+                </div>
+                <!-- Testimonio 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border border-slate-100">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 flex mr-2">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <span class="font-bold text-slate-900">Laura G.</span>
+                    </div>
+                    <p class="text-slate-700 italic">"Estaba escéptica. Otro 'libro milagro', pensé. Pero la explicación sobre la barrera intestinal y el cortisol me abrió los ojos. No es magia, es pura bioquímica aplicada. Mi ansiedad ha bajado y las placas en mi cuero cabelludo han desaparecido casi por completo."</p>
+                </div>
+                <!-- Testimonio 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border border-slate-100">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 flex mr-2">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <span class="font-bold text-slate-900">Javier R.</span>
+                    </div>
+                    <p class="text-slate-700 italic">"La sección sobre nutrición de precisión cambió todo para mí. No tenía idea de que estaba 'comiendo sano' pero incorrectamente para mi condición. Es una guía densa, pero vale cada centavo si quieres tomar el control real de tu salud."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOQUE 8: LA OFERTA IRRESISTIBLE Y CIERRE -->
+    <section id="oferta" class="py-24 bg-blue-50 px-4 border-t border-blue-100">
+        <div class="max-w-3xl mx-auto bg-white rounded-2xl shadow-2xl overflow-hidden border border-slate-100">
+            <div class="bg-blue-600 text-white text-center py-4 font-bold tracking-widest text-sm uppercase">
+                Oferta por tiempo limitado
+            </div>
+            <div class="p-8 md:p-12 text-center">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 mb-2">
+                    Toma el control de tu biología hoy mismo.
+                </h2>
+                <p class="text-slate-500 mb-8">Deja de tratar síntomas y empieza a reparar el sistema.</p>
+                
+                <div class="flex flex-col items-center justify-center mb-8">
+                    <span class="text-slate-400 text-xl line-through decoration-red-500 decoration-2">~Valor Real: $97 USD~</span>
+                    <div class="text-6xl font-extrabold text-slate-900 my-2">
+                        $27 <span class="text-xl text-slate-500 font-medium">USD</span>
+                    </div>
+                    <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-bold">Ahorras un 70% hoy</span>
+                </div>
+
+                <button class="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold py-5 px-8 rounded-lg text-xl shadow-lg transform transition hover:-translate-y-1 duration-200 mb-4">
+                    DESCARGAR EL MANUAL MAESTRO AHORA <i class="fas fa-file-download ml-2"></i>
+                </button>
+
+                <div class="flex flex-col md:flex-row justify-center items-center gap-4 text-sm text-slate-500 mt-6">
+                    <span class="flex items-center"><i class="fas fa-lock text-green-500 mr-2"></i> Pago 100% seguro con Hotmart</span>
+                    <span class="flex items-center"><i class="fas fa-bolt text-yellow-500 mr-2"></i> Acceso Digital Inmediato</span>
+                </div>
+
+                <!-- Garantía Final Rediseñada y Llamativa -->
+                <div class="mt-10 mx-auto max-w-lg">
+                    <div class="bg-yellow-50 border-2 border-yellow-400 rounded-xl p-6 relative overflow-hidden shadow-lg">
+                        <div class="absolute -right-4 -top-4 text-yellow-200 opacity-50">
+                            <i class="fas fa-shield-alt text-9xl"></i>
+                        </div>
+                        <div class="relative z-10 text-center">
+                            <div class="inline-block bg-yellow-400 text-slate-900 font-black text-xs px-3 py-1 rounded-full mb-3 uppercase tracking-wide">
+                                100% Libre de Riesgo
+                            </div>
+                            <h4 class="text-2xl font-extrabold text-slate-900 mb-2">Garantía de Hierro de 7 Días</h4>
+                            <p class="text-slate-700 font-medium mb-0">
+                                Estamos tan seguros de la ciencia detrás de este protocolo que tomamos todo el riesgo. <br>
+                                <span class="font-bold text-slate-900">Si la información técnica no transforma tu entendimiento de la enfermedad, te devolvemos cada centavo.</span> Sin preguntas, sin letra chica.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <footer class="text-center mt-12 text-slate-400 text-sm">
+            <p>&copy; 2024 Biohackeo Integral. Todos los derechos reservados.</p>
+            <p class="mt-2 text-xs">Descargo de responsabilidad: Este producto no sustituye el consejo médico profesional.</p>
+        </footer>
+    </section>
+
+</body>
+</html>
